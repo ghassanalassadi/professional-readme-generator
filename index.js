@@ -28,7 +28,7 @@ const questions = [{
     type: 'list-input',
     name: 'license',
     message: 'What kind of license do you have?',
-    choices: ['MIT', 'APACHE', 'GPL', 'BSD', 'None']
+    choices: ['MIT', 'APACHE 2.0', 'GPL v3', 'BSD', 'None']
     },
     {
     type: 'input',
@@ -53,10 +53,18 @@ const questions = [{
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fileName = 'README.md';
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+            console.log(err);
+        }
+    });
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {;
+}
 
 // Function call to initialize app
 init();
