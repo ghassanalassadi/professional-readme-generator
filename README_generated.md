@@ -1,24 +1,29 @@
-# test
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Professional README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description
-test
+This project creates README files for Github and Gitlab based on user input.
 
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
-- [License]($license)
+- [License](#license)
 
 ## Installation
-test
+npm i
 
 ## Usage
-test
+To use this application, navigate to the folder in your command line and run the command "node index.js"
 
-## Features
-test
+## How to Test the Application
+node index.js
 
 ## How to Contribute
-test
+To contribute to the repo, please contact me.
+
+## Questions
+Do you have any questions? You can contact me at:
+Github: https://github.com/ghassanalassadi
+Email: email@email.com
 
 ## License
-    This project uses the APACHE 2.0 license.
+This project uses the MIT license.
